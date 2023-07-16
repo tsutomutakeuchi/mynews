@@ -26,6 +26,7 @@ class ProfileController extends Controller
         // フォームから送信されてきた_tokenを削除する
         unset($form['_token']);
 
+        // デバッグコード dd($form);
         // データベースに保存する
         $profile->fill($form);
         $profile->save();
