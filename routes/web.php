@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\NewsController;
-use App\Http\Controllers\AAAController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\NewsController as PublicNewsController;
 use App\Http\Controllers\ProfileController as PublicProfileController;
